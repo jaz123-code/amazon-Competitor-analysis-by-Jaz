@@ -13,7 +13,7 @@ def render_inputs():
     asin = st.text_input("ASIN", placeholder="e.g., B0CX23VSAS")
     geo = st.text_input("Zip/Postal Code", placeholder="e.g., 83980")
     domain = st.selectbox("Domain", [
-        "com", "ca", "co.uk", "de", "fr", "it", "ae"
+        "com", "ca", "co.uk", "de", "fr", "it", "ae","in"
     ])
     return asin.strip(), geo.strip(), domain
 
